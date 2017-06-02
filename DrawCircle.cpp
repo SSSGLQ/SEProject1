@@ -28,7 +28,7 @@ int main()
 		r0 = r0 + 2 * r1;
 	}
 	
-	/*r0 = 200;
+	r0 = 200;
 	r1 = r0*(sqrt(2.0) - 1) / (sqrt(2.0) + 1);
 	x0 = r1;
 	for (i = 0; i < 1; i++)
@@ -44,7 +44,7 @@ int main()
 		circle(400-r2, 400-(x0 + 2 * sqrt(r1*r2)), r2);
 		x0 = x0 + 2 * sqrt(r1*r2);
 		r1 = r2;
-	}*/
+	}
 	_getch();
 	closegraph();
 }
