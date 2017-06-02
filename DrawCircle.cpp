@@ -18,7 +18,7 @@ int main()
 	int i;
 	double x0 = 200, y0 = 200, r0 = 200,x1,y1,r1,r2;
 	circle(x0, y0, r0);
-	/*for (i = 0; i < 1; i++)
+	for (i = 0; i < 1; i++)
 	{
 		r1 = (200*sqrt(2.0)-r0) / (sqrt(2.0) + 1);
 		circle(r1, r1, r1);
@@ -28,7 +28,7 @@ int main()
 		r0 = r0 + 2 * r1;
 	}
 	
-	r0 = 200;
+	/*r0 = 200;
 	r1 = r0*(sqrt(2.0) - 1) / (sqrt(2.0) + 1);
 	x0 = r1;
 	for (i = 0; i < 1; i++)
